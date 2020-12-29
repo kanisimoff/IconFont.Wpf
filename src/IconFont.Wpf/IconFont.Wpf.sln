@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconFont.Wpf", "IconFont.Wpf.csproj", "{62DC4189-400D-4D7B-B2BC-C87B1320D5BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA409113-5FA7-4509-A363-C5779DBCE7BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{2EB4A714-FB3A-4AB9-9363-489A867F6A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconFont.Example", "..\..\example\IconFont.Example\IconFont.Example.csproj", "{79BE64D1-E631-4DA7-8253-5F444676FE16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconFont.Tests", "..\..\tests\IconFont.Tests\IconFont.Tests.csproj", "{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62DC4189-400D-4D7B-B2BC-C87B1320D5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DC4189-400D-4D7B-B2BC-C87B1320D5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DC4189-400D-4D7B-B2BC-C87B1320D5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DC4189-400D-4D7B-B2BC-C87B1320D5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BE64D1-E631-4DA7-8253-5F444676FE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BE64D1-E631-4DA7-8253-5F444676FE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BE64D1-E631-4DA7-8253-5F444676FE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BE64D1-E631-4DA7-8253-5F444676FE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79BE64D1-E631-4DA7-8253-5F444676FE16} = {2EB4A714-FB3A-4AB9-9363-489A867F6A79}
+		{BE2C7942-5871-4C2D-8111-F88EC6B3DCD2} = {CA409113-5FA7-4509-A363-C5779DBCE7BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B28E2E59-1141-4156-9052-14C03B6E512D}
+	EndGlobalSection
+EndGlobal
